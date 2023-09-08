@@ -1,8 +1,16 @@
 
+import { About, Footer, Header, Skills, Testimonial, Work  } from "./container";
 
 const App = () =>{
     return(
-    <h1>Hello dumb people</h1>
+    <div>
+        <Header/>
+        <About/>
+        <Skills/>
+        <Work/>
+        <Testimonial/>
+        <Footer/>
+    </div>
     )};
     
 export default App;
